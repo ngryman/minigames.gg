@@ -1,0 +1,15 @@
+.post-stat {
+  display: flex;
+  margin: 0 1rem;
+  padding: .2rem;
+
+  > .svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+  }
+
+  > .value {
+    margin-left: 1rem;
+  }
+}

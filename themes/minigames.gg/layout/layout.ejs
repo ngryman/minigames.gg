@@ -1,0 +1,16 @@
+<%- partial('_partial/head') %>
+
+<body>
+
+  <%- partial('_partial/header-bar') %>
+  <!-- <%- partial('_partial/nav', null, {cache: !config.relative_link}) %> -->
+
+  <main>
+    <%- body %>
+  </main>
+
+  <%- partial('_partial/footer-block') %>
+  <%- partial('_partial/after-footer') %>
+
+</body>
+</html>

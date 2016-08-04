@@ -1,0 +1,76 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Minigames
+subtitle: Another way to own
+description: A curated list of League of Legends mini games.
+author: Nicolas Gryman
+twitter: '@ngryman'
+language: en
+timezone: utc
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://minigames.gg
+root: /
+permalink: :title.html
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link: true
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+per_page: 0
+pagination_dir: page
+
+# Extensions
+theme: minigames.gg
+
+# Deployment
+deploy:
+  type: git
+  repo: https://github.com/ngryman/minigames.gg
+  branch: gh-pages
+  message: ':tada: deploy'
+
+marked:
+  gfm: true
+  breaks: false
+
+node_sass:
+  includePaths:
+  - './themes/minigames.gg/node_modules'

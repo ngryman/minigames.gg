@@ -1,0 +1,5 @@
+<header class="header-bar">
+  <%- partial('action-button', { type: 'search' }) %>
+  <a class="title" href="<%- url_for() %>"><%- uppercase(config.title) %></a>
+  <%- partial('action-button', { type: 'menu' }) %>
+</header>

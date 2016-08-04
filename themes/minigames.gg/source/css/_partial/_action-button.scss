@@ -1,0 +1,20 @@
+.action-button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+
+  > .svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: currentColor;
+  }
+}
+
+.action-button.-small {
+  > .svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

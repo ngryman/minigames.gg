@@ -1,0 +1,23 @@
+<article class="post-block" itemscope itemprop="blogPost">
+  <header class="header">
+    <!-- <video class="video" src="#" poster="//placehold.it" autoplay></video> -->
+    <h1 class="title" itemprop="name"><%- titlecase(post.title) %></h1>
+    <div class="stats">
+      <%- partial('_partial/post-stat', { type: 'players', value: post.players }) %>
+      <%- partial('_partial/post-stat', { type: 'time', value: post.duration }) %>
+      <!-- <%- partial('_partial/post-stat', { type: 'like', value: '217' }) %> -->
+    </div>
+  </header>
+  <div class="body">
+    <%- post.more %>
+  </div>
+  <footer class="comments">
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = '<%= post.permalink %>'
+        this.page.identifier = '<%= post.path %>'
+      };
+    </script>
+  </footer>
+</article>

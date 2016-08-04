@@ -1,0 +1,9 @@
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -2rem;
+
+  > .post-card {
+    flex: 0 0 29.4%;
+  }
+}

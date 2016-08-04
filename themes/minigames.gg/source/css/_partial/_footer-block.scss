@@ -1,0 +1,19 @@
+.footer-block {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 11rem;
+
+  > .text {
+    opacity: .5;
+  }
+
+  > .heart {
+    margin: 0 .3em;
+    color: #f1495d;
+  }
+
+  > .twitter {
+    margin: 0 .3em;
+  }
+}

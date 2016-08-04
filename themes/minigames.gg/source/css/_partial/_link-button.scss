@@ -1,0 +1,11 @@
+.link-button {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+
+  > .svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+  }
+}

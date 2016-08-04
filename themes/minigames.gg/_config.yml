@@ -1,0 +1,25 @@
+# Bundles
+webpack:
+  entry: themes/minigames.gg/source/js/app.js
+
+# Header
+# menu:
+#   Home: /
+#   Submit: /submit
+
+# Content
+excerpt_link: Read More
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# Miscellaneous
+google_analytics: UA-81989201-1
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:

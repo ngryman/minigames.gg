@@ -1,0 +1,8 @@
+<%- partial('_partial/hero-block') %>
+<%- partial('_partial/filter-bar') %>
+
+<div class="post-list">
+<% page.posts.sort('date', -1).each(post => { %>
+    <%- partial('_partial/post-card', { post }) %>
+<% }) %>
+</div>

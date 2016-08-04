@@ -1,0 +1,14 @@
+.filter-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 4rem -1rem;
+  color: rgba(#F7FFF7, .25);
+
+  > .link-button {
+    margin: 0 1rem;
+  }
+
+  > .link-button.-active {
+    color: #F7FFF7;
+  }
+}
