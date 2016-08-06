@@ -9,7 +9,7 @@ Let see how skilled are your shots?
 
 <!-- more -->
 
-## Overview
+## Objective
 
 Each player takes {% small_champion Nidalee %}. The first to reach a certain amount of point with **hunter's marks** wins.
 

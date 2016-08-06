@@ -9,13 +9,9 @@ A mini game for those with the hatred or love for yordles!
 
 <!-- more -->
 
-## Overview
-
-The game mode consist of two groups: the **Tossers** and the **Yordles**. First team to kill all of the enemy Yordles wins!
-
 ## Objective
 
-The first team to kill all all the enemy Yordles wins.
+The game mode consist of two groups: the **Tossers** and the **Yordles**. First team to kill all of the enemy Yordles wins!
 
 ### Tossers
 

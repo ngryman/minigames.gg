@@ -9,7 +9,7 @@ The most famous minigame, do I need to explain?
 
 <!-- more -->
 
-## Overview
+## Objective
 
 One team has to hide while the other team has to seek.
 

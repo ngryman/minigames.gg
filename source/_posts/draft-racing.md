@@ -8,7 +8,7 @@ duration: 20
 Suicide! ... in the enemy fountain.
 <!-- more -->
 
-## Overview
+## Objective
 
 Each allied champion that dies in the enemy fountain counts as a point. The first team to score **10 points** wins.
 Each team can have **runners**, **defenders** and **roamers**.

@@ -9,7 +9,7 @@ Dodgeball! Don’t get hit! Run!
 
 <!-- more -->
 
-## Overview
+## Objective
 
 Kill all the enemy team! The first team to kill all members of the enemy team wins.
 
