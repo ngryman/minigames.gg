@@ -1,0 +1,12 @@
+$colors: (
+  primary: #47b8e0,
+  secondary: #ff7473,
+  tertiary: #ffc952,
+  light: #f7fff7,
+  dark: #4a4a4a,
+  darker: #34314c
+);
+
+@function color-get($type) {
+  @return map-get($colors, $type);
+}

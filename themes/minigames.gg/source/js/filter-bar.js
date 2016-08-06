@@ -2,8 +2,8 @@ var select = require('select-dom')
 
 var activeButton
 
-select.all('.filter-bar .link-button').forEach(function(e) {
-  e.addEventListener('click', function(e) {
+select.all('.filter-bar .link-button').forEach(function(button) {
+  button.addEventListener('click', function(e) {
     if (activeButton) {
       activeButton.classList.remove('-active')
     }

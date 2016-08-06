@@ -2,36 +2,33 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background: color-get(darker);
+  text-shadow: none;
+}
+
 html {
   font-family: 'Lato', sans-serif;
   font-size: 10px;
   font-weight: 300;
-  color: #F7FFF7;
-
-  &::before {
-    content: '';
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(-45deg, #1A1C21, #2A3242) 100% 100%;
-  }
+  background: color-get(darker);
+  color: color-get(light);
 }
 
 html.-light {
-  color: #2A3242;
-
-  &::before {
-    background: #F7FFF7;
-  }
+  background: color-get(light);
+  color: color-get(darker);
 }
 
 body {
   margin: 0 auto;
   width: 100rem;
   font-size: 160%;
+  background: color-get(darker);
+}
+
+html.-light body {
+  background: color-get(light);
 }
 
 a {
@@ -49,7 +46,7 @@ table {
 }
 
 th {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 td {

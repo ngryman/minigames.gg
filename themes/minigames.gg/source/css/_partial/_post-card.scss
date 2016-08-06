@@ -3,11 +3,10 @@
   border-radius: 4px;
   background: #F7FFF7;
   cursor: pointer;
-  transition: transform 200ms, box-shadow 200ms;
+  transition: background 200ms;
 
   &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 12px #000;
+    background: color-get(secondary);
   }
 
   .header {
@@ -27,9 +26,15 @@
   }
 
   .body {
+    border-radius: 4px 4px 0 0;
     padding: 2rem;
     min-height: 16rem;
-    color: #4A4A4A;
+    color: color-get(dark);
+    transition: color 200ms;
+  }
+
+  &:hover .body {
+    color: color-get(light);
   }
 
   .body > .title {
@@ -37,6 +42,12 @@
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
+    color: color-get(secondary);
+    transition: color 200ms;
+  }
+
+  &:hover .body > .title {
+    color: color-get(light);
   }
 
   .body > p {
@@ -48,7 +59,12 @@
     margin: 0 -1rem;
     padding: 2rem;
     background: rgba(0, 0, 0, .03);
-    color: #9B9B9B;
+    color: color-get(dark);
+    transition: color 200ms;
+  }
+
+  &:hover .footer {
+    color: color-get(light);
   }
 
   // .footer > .post-stat:nth-last-child(2) {

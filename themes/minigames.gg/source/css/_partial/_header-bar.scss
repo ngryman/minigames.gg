@@ -11,15 +11,25 @@
     letter-spacing: .1em;
   }
 
+  > .title > .highlight {
+    color: color-get(primary);
+  }
+
   > .title::after {
     content: 'work in progress';
     position: absolute;
-    transform: translateY(-20%) rotate(-10deg);
+    transform: translate(-60%, 50%) rotate(-10deg);
     margin-left: 2rem;
     border: 1px solid;
     border-radius: 4px;
     padding: 1rem;
     font-size: 1rem;
     font-weight: 300;
+    opacity: .5;
+  }
+
+  // waiting further realease
+  .action-button {
+    visibility: hidden;
   }
 }

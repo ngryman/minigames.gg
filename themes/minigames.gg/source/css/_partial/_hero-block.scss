@@ -17,11 +17,11 @@
     font-weight: 100;
     line-height: 1.4;
     letter-spacing: .2rem;
-    color: rgba(#F7FFF7, .5);
+    color: rgba(color-get(light), .5);
   }
 
   > .title > .highlight {
-    font-weight: 300;
-    color: #00B295;
+    font-weight: 400;
+    color: color-get(tertiary);
   }
 }

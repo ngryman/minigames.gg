@@ -21,12 +21,12 @@
     font-size: 3.6rem;
     font-weight: 600;
     text-transform: uppercase;
+    color: color-get(secondary);
   }
 
   > .header > .stats {
     display: flex;
     margin: 0 -1rem;
-    color: #9B9B9B;
   }
 
   // > .header > .stats > .post-stat:nth-last-child(2) {
@@ -43,6 +43,7 @@
       font-size: 2.4rem;
       font-weight: 700;
       letter-spacing: .05em;
+      color: color-get(primary);
     }
 
     h3 {
@@ -62,21 +63,21 @@
     ol {
       counter-reset: list-counter;
       margin: 0 auto;
+    }
 
-      > li::before {
-        display: inline-block;
-        content: counter(list-counter) '.';
-        counter-increment: list-counter;
-        margin-right: .5em;
-        width: 1.5em;
-        font-weight: 700;
-        text-align: right;
-      }
+    ol > li::before {
+      display: inline-block;
+      content: counter(list-counter) '.';
+      counter-increment: list-counter;
+      margin-right: .5em;
+      width: 1.5em;
+      font-weight: 700;
+      text-align: right;
     }
 
     strong {
       font-weight: 700;
-      color: #00B295;
+      color: color-get(secondary);
     }
   }
 }
