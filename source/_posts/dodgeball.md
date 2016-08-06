@@ -22,7 +22,7 @@ Kill all the enemy team! The first team to kill all members of the enemy team wi
 
 ## Area
 
-TODO
+{% area 'Baron Pit' %}
 
 ## Allowed champions
 

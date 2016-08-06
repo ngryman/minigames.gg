@@ -50,7 +50,7 @@ Run for your life!
 
 ## Area
 
-TODO: dragon pit
+{% area 'Dragon Pit' %}
 
 ## Credits
 

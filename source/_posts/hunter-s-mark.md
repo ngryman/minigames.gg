@@ -20,7 +20,7 @@ Each player takes {% small_champion Nidalee %}. The first to reach a certain amo
 
 ## Area
 
-TODO
+{% area 'SW Jungle' %}
 
 ## Allowed champions
 

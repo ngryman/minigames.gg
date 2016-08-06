@@ -44,7 +44,7 @@ When any of the above rule is broken, the game time gets **-3** or **+3** minute
 
 ## Area
 
-TODO
+{% area 'SW Jungle' %}
 
 ## Banned champions
 
