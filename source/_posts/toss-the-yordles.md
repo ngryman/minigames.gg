@@ -11,28 +11,30 @@ A mini game for those with the hatred or love for yordles!
 
 ## Objective
 
-The game mode consist of two groups: the **Tossers** and the **Yordles**. First team to kill all of the enemy Yordles wins!
+The game mode consist of two groups: the *Tossers* and the *Yordles*. First team to kill all of the enemy Yordles wins!
 
-### Tossers
+## Roles
 
-Kill the enemy Yordles! You may not target the enemy Tossers.
+*Tossers* have to kill the enemy Yordles! You may not target the enemy Tossers.
 
-### Yordles
-
-Run for your life!
+*Yordles* have to run for their life!
 
 ## Rules
 
-## Tossers
+### Tossers
 
 1. Each team has only **2 Tossers**.
 2. You can toss a Yordle outside the **Dragon Pit** resulting in a KO.
 
-## Yordles
+### Yordles
 
 1. Each team has **3 Yordles**.
 2. You can't attack, only run.
 3. You are encouraged to spam emotes.
+
+## Area
+
+{% area 'Dragon Pit' %}
 
 ## Allowed champions
 
@@ -47,10 +49,6 @@ Run for your life!
 | ------- | -------------------------------------------------------------------- |
 | Tossers | TODO: mana & cdr |
 | Yordles | No items!  |
-
-## Area
-
-{% area 'Dragon Pit' %}
 
 ## Credits
 

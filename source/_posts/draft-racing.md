@@ -6,18 +6,22 @@ duration: 20
 ---
 
 Suicide! ... in the enemy fountain.
+
 <!-- more -->
 
 ## Objective
 
 Each allied champion that dies in the enemy fountain counts as a point. The first team to score **10 points** wins.
-Each team can have **runners**, **defenders** and **roamers**.
 
-**Runners** run into the enemy fountain. Good runners have any combination of stealth, jumps, dashes, teleports, speed and defense.
+## Roles
 
-**Defenders** make sure enemy runners don't make it into the fountain. Good defenders usually have a combination of `cc` and burst damage.
+Each team can have *runners*, *defenders* and *roamers*.
 
-**Roamers** are more rare. There is usually only one per team. A roamer's job is to roam around the jungle, warding and picking off enemy runners before they get to your team's defenders.
+*Runners* run into the enemy fountain. Good runners have any combination of stealth, jumps, dashes, teleports, speed and defense.
+
+*Defenders* make sure enemy runners don't make it into the fountain. Good defenders usually have a combination of `cc` and burst damage.
+
+*Roamers* are more rare. There is usually only one per team. A roamer's job is to roam around the jungle, warding and picking off enemy runners before they get to your team's defenders.
 
 ## Rules
 
@@ -25,9 +29,9 @@ Each team can have **runners**, **defenders** and **roamers**.
 
 ## Banned summoner spells
 
-|                      |
-| -------------------- |
-| {% spell Teleport %} |
+{% grid 0 one %}
+{% spell Teleport %}
+{% endgrid %}
 
 ## Credits
 

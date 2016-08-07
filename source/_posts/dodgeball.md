@@ -15,10 +15,11 @@ Kill all the enemy team! The first team to kill all members of the enemy team wi
 
 ## Rules
 
-1. Wards must be purchased at the start to create the center line.
-2. Nobody is allowed to cross the **center line**.
-3. You must be only **level 1**.
-3. You only have **1 life**.
+1. You can only use **single non-targeting skill shots**.
+2. Wards must be purchased at the start to create the **center line**.
+3. You are **not allowed** to cross the center line.
+4. You must be only **level 1**.
+5. You only have **1 life**.
 
 ## Area
 
@@ -26,13 +27,9 @@ Kill all the enemy team! The first team to kill all members of the enemy team wi
 
 ## Allowed champions
 
-|                                                                      |
-| -------------------------------------------------------------------- |
-| {% champion Aatrox Ahri Anivia "Aurelion Sol" Bard Brand Braum Caitlyn Diana "Dr. Mundo" Ekko Elise Ezreal Gnar Heimerdinger "Jarvan IV" Jhin Jinx Kennen Kindred LeBlanc "Lee Sin" Leona Lux Morgana Nidalee Olaf Quinn Rumble Taliyah Varus Veigar Zed %}
-
-## Allowed abilities
-
-TODO
+{% grid 3 %}
+{% champion Aatrox Ahri Anivia "Aurelion Sol" Bard Brand Braum Caitlyn Diana "Dr. Mundo" Ekko Elise Ezreal Gnar Heimerdinger "Jarvan IV" Jhin Jinx Kennen Kindred LeBlanc "Lee Sin" Leona Lux Morgana Nidalee Olaf Quinn Rumble Taliyah Varus Veigar Zed %}
+{% endgrid %}
 
 ## Credits
 

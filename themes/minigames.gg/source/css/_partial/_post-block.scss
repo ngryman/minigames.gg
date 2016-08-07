@@ -79,5 +79,10 @@
       font-weight: 700;
       color: color-get(secondary);
     }
+
+    em {
+      font-weight: 700;
+      color: color-get(tertiary);
+    }
   }
 }

@@ -21,7 +21,11 @@ function renderChampion(name, size) {
 
   const style = `background: url(${url}) -${x}px -${y}px`
   const sizeCls = size ? ` -${size}` : ''
-  const content = size ? ` <strong>${name}</strong>` : ''
 
-  return `<span class="champion-image${sizeCls}" title="${name}" style="${style}"></span>${content}`
+  return `
+  <span class="champion-image${sizeCls}">
+    <span class="image" title="${name}" style="${style}"></span>
+    <strong>${name}</strong>
+  </span>
+  `
 }

@@ -13,6 +13,12 @@ The most famous minigame, do I need to explain?
 
 One team has to hide while the other team has to seek.
 
+## Roles
+
+*Hiders* hide in bushes and have to survive until the end of the game.
+
+*Seekers* find hiders and have to kill them.
+
 ## Rules
 
 ### Hiders

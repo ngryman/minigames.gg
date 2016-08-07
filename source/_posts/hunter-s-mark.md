@@ -16,7 +16,6 @@ Each player takes {% small_champion Nidalee %}. The first to reach a certain amo
 ## Rules
 
 1. Reach **level 2** before fighting.
-2.
 
 ## Area
 
