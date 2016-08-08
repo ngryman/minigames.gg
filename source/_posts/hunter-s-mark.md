@@ -23,9 +23,9 @@ Each player takes {% small_champion Nidalee %}. The first to reach a certain amo
 
 ## Allowed champions
 
-|                        |
-| ---------------------- |
-| {% champion Nidalee %} |
+{% grid fixed %}
+{% champion Nidalee %}
+{% endgrid %}
 
 ## Credits
 

@@ -29,7 +29,7 @@ Each team can have *runners*, *defenders* and *roamers*.
 
 ## Banned summoner spells
 
-{% grid 0 one %}
+{% grid fixed %}
 {% spell Teleport %}
 {% endgrid %}
 

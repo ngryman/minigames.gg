@@ -38,10 +38,17 @@ The game mode consist of two groups: the *Tossers* and the *Yordles*. First team
 
 ## Allowed champions
 
-|         |                                                                                  |
-| ------- | -------------------------------------------------------------------------------- |
-| Tossers | {% champion Blitzcrank Singed Volibear Gragas, Cho'Gath %} |
-| Yordles | {% champion Amumu Kennen Heimerdinger Lulu Poppy Teemo Tristana Veigar %} |
+### Tossers
+
+{% grid 3 %}
+{% champion Blitzcrank Singed Volibear Gragas, Cho'Gath %}
+{% endgrid %}
+
+### Yordles
+
+{% grid 3 %}
+{% champion Amumu Kennen Heimerdinger Lulu Poppy Teemo Tristana Veigar %}
+{% endgrid %}
 
 ## Allowed items
 

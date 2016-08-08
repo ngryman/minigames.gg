@@ -1,14 +1,20 @@
 .grid-layout {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   padding: 4rem;
   background: rgba(0,0,0,.03);
 
   @for $i from 1 through 6 {
     &.-col#{$i} > * {
       flex: 0 0 100% / $i;
+    }
+
+    &.-col#{$i} > *:nth-child(#{$i}n) {
       margin-bottom: 1em;
     }
+  }
+
+  &.-fixed {
+    justify-content: center;
   }
 }

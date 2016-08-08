@@ -54,16 +54,23 @@ When any of the above rule is broken, the game time gets **-3** or **+3** minute
 
 ## Banned champions
 
-|         |                                                                      |
-| ------- | -------------------------------------------------------------------- |
-| Seekers | {% champion Evelynn Kassadin Rengar %} |
-| Hiders  | {% champion Evelynn Kassadin Teemo %}  |
+### Hiders
+
+{% grid 3 %}
+{% champion Evelynn Kassadin Teemo %}
+{% endgrid %}
+
+### Seekers
+
+{% grid 3 %}
+{% champion Evelynn Kassadin Rengar %}
+{% endgrid %}
 
 ## Banned items
 
-|                                                  |
-| ------------------------------------------------ |
-| {% item Thornmail 'Guardian Angel' %} |
+{% grid fixed %}
+{% item Thornmail 'Guardian Angel' %}
+{% endgrid %}
 
 ## Allowed abilities
 
