@@ -10,11 +10,23 @@
     }
 
     &.-col#{$i} > *:nth-child(#{$i}n) {
-      margin-bottom: 1em;
+      margin-bottom: 1.5rem;
     }
   }
+}
 
-  &.-fixed {
-    justify-content: center;
+.grid-layout.-fixed {
+  justify-content: center;
+
+  > * {
+    margin: 0 .75rem;
+  }
+
+  > :first-child {
+    margin-left: 0;
+  }
+
+  > :last-child {
+    margin-right: 0;
   }
 }
