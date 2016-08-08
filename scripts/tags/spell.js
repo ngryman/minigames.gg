@@ -21,7 +21,13 @@ function renderSpell(name, size) {
 
   const style = `background: url(${url}) -${x}px -${y}px`
   const sizeCls = size ? ` -${size}` : ''
-  const content = size ? ` <strong>${name}</strong>` : ''
+  const link = `http://leagueoflegends.wikia.com/wiki/${name.replace(' ', '_')}`
 
-  return `<span class="spell-image${sizeCls}" title="${name}" style="${style}"></span>${content}`
+  return `
+    <a class="spell-image" title="${name}" href="${link}" rel="external" target="_blank">
+      <span class="image" style="${style}"></span>
+      <strong>${name}</strong>
+    </a>
+
+  `
 }

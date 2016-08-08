@@ -21,11 +21,12 @@ function renderChampion(name, size) {
 
   const style = `background: url(${url}) -${x}px -${y}px`
   const sizeCls = size ? ` -${size}` : ''
+  const link = `http://leagueoflegends.wikia.com/wiki/${name.replace(' ', '_')}`
 
   return `
-  <span class="champion-image${sizeCls}">
+  <a class="champion-image${sizeCls}" title="${name}" href="${link}" rel="external" target="_blank">
     <span class="image" title="${name}" style="${style}"></span>
     <strong>${name}</strong>
-  </span>
+  </a>
   `
 }
