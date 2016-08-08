@@ -1,10 +1,10 @@
-<article class="post-card" itemscope itemprop="blogPost">
+<article class="post-card">
   <a class="link" href="<%= url_for(post.path) %>">
     <!-- <header class="header">
       <video class="video" src="#" poster="//placehold.it" autoplay></video>
     </header> -->
-    <div class="body" itemprop="articleBody">
-      <h1 class="title" itemprop="name"><%- titlecase(post.title) %></h1>
+    <div class="body">
+      <h1 class="title"><%- titlecase(post.title) %></h1>
       <%- post.excerpt %>
     </div>
     <footer class="footer">
