@@ -1,1 +1,21 @@
 <%- partial('_partial/post-block', { post: page }) %>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "<%= page.title %>",
+  "headline": "<%= page.title %>",
+  "description": "<%= page.excerpt %>",
+  "datePublished": "<%= page.date.toISOString() %>",
+  "dateModified": "<%= page.updated.toISOString() %>",
+  "author": {
+    "@type": "Person",
+    "name": "Nicolas Gryman"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "<%= page.permalink %>"
+  }
+}
+</script>

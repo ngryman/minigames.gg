@@ -1,14 +1,14 @@
-<article class="post-block" itemscope itemtype="http://schema.org/Article">
+<article class="post-block">
   <header class="header">
     <!-- <video class="video" src="#" poster="//placehold.it" autoplay></video> -->
-    <h1 class="title" itemprop="name"><%- titlecase(post.title) %></h1>
+    <h1 class="title"><%- titlecase(post.title) %></h1>
     <div class="stats">
       <%- partial('_partial/post-stat', { type: 'players', value: post.players }) %>
       <%- partial('_partial/post-stat', { type: 'time', value: post.duration }) %>
       <!-- <%- partial('_partial/post-stat', { type: 'like', value: '217' }) %> -->
     </div>
   </header>
-  <div class="body" itemprop="articleBody">
+  <div class="body">
     <%- post.more %>
   </div>
   <footer class="comments">

@@ -6,3 +6,27 @@
     <%- partial('_partial/post-card', { post }) %>
 <% }) %>
 </div>
+
+<script type="application/ld+json">
+[
+<% page.posts.sort('date', -1).each(post => { %>
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "name": "<%= post.title %>",
+    "headline": "<%= post.title %>",
+    "description": "<%= post.excerpt %>",
+    "datePublished": "<%= post.date.toISOString() %>",
+    "dateModified": "<%= post.updated.toISOString() %>",
+    "author": {
+      "@type": "Person",
+      "name": "Nicolas Gryman"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "<%= post.permalink %>"
+    }
+  },
+<% }) %>
+]
+</script>
