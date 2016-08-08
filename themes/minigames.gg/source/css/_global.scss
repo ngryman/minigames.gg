@@ -2,22 +2,25 @@
   box-sizing: border-box;
 }
 
-::selection {
-  background: color-get(darker);
-  text-shadow: none;
-}
-
 html {
   font-family: 'Lato', sans-serif;
   font-size: 10px;
   font-weight: 300;
   background: color-get(darker);
   color: color-get(light);
+
+  ::selection {
+    background: color-get(darker);
+  }
 }
 
 html.-light {
   background: color-get(light);
   color: color-get(darker);
+
+  ::selection {
+    background: rgba(0, 0, 0, .1);
+  }
 }
 
 body {

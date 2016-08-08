@@ -4,6 +4,11 @@
   background: #F7FFF7;
   cursor: pointer;
   transition: background 200ms;
+  will-change: background;
+
+  ::selection {
+    background: rgba(0, 0, 0, .1);
+  }
 
   &:hover {
     background: color-get(secondary);
