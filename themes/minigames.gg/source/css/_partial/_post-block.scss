@@ -37,52 +37,52 @@
     margin: 4rem 0;
     font-size: 1.1em;
     letter-spacing: .05em;
+  }
 
-    h2 {
-      margin: 6rem 0 4rem 0;
-      font-size: 2.4rem;
-      font-weight: 700;
-      letter-spacing: .05em;
-      color: color-get(primary);
-    }
+  h2 {
+    margin: 6rem 0 4rem 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: .05em;
+    color: color-get(primary);
+  }
 
-    h3 {
-      margin: 4rem 0 2rem 0;
-      font-weight: 700;
-    }
+  h3 {
+    margin: 4rem 0 2rem 0;
+    font-weight: 700;
+  }
 
-    p, ul, ol {
-      margin: 2rem 0;
-      line-height: 2em;
-    }
+  p, ul, ol {
+    margin: 2rem 0;
+    line-height: 2em;
+  }
 
-    ul {
-      list-style: disc;
-    }
+  ul {
+    list-style: disc;
+  }
 
-    ol {
-      counter-reset: list-counter;
-      margin: 0 auto;
-    }
+  ol {
+    counter-reset: list-counter;
+    margin: 0 auto;
+  }
 
-    ol > li::before {
-      display: inline-block;
-      content: counter(list-counter) '.';
-      counter-increment: list-counter;
-      margin-right: .5em;
-      width: 1.5em;
-      font-weight: 700;
-      text-align: right;
-    }
+  ol > li::before {
+    display: inline-block;
+    content: counter(list-counter) '.';
+    counter-increment: list-counter;
+    margin-right: .5em;
+    width: 1.5em;
+    font-weight: 700;
+    text-align: right;
+  }
 
-    strong {
-      font-weight: 700;
-      color: color-get(secondary);
-    }
+  strong {
+    font-weight: 700;
+    color: color-get(secondary);
+  }
 
-    em {
-      font-weight: 700;
-      color: color-get(tertiary);
-    }
+  em {
+    font-weight: 700;
+    color: color-get(tertiary);
   }
 }
