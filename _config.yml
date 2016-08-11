@@ -60,6 +60,9 @@ pagination_dir: page
 # Extensions
 theme: minigames.gg
 
+sitemap:
+  path: sitemap.xml
+
 # Deployment
 deploy:
   type: git
