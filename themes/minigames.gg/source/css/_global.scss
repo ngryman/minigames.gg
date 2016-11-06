@@ -28,6 +28,11 @@ body {
   width: 100rem;
   font-size: 160%;
   background: color-get(darker);
+
+  @include mq-laptop {
+    padding: 0 2rem;
+    width: 100%;
+  }
 }
 
 html.-light body {

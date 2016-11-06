@@ -1,17 +1,24 @@
 .post-card {
-  margin: 2rem;
-  border-radius: 4px;
-  background: #F7FFF7;
-  cursor: pointer;
-  transition: background 200ms;
-  will-change: background;
-
   ::selection {
     background: rgba(0, 0, 0, .1);
   }
 
-  &:hover {
-    background: color-get(secondary);
+  > .link {
+    display: block;
+    margin: 2rem;
+    border-radius: 4px;
+    background: #F7FFF7;
+    cursor: pointer;
+    transition: background 200ms;
+    will-change: background;
+
+    &:hover {
+      background: color-get(secondary);
+    }
+
+    @include mq-laptop {
+      margin: 1rem;
+    }
   }
 
   .header {

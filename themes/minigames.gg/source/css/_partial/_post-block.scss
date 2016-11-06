@@ -2,12 +2,23 @@
   margin: 0 auto;
   width: 64rem;
 
+  @include mq(640) {
+    width: 100%;
+  }
+
   > .header {
     position: relative;
     left: 50%;
     margin-left: -50vw;
+    width: 100vw;
     padding: 4rem calc((100vw - 64rem) / 2);
     background: rgba(0, 0, 0, .03);
+
+    @include mq(640) {
+      position: static;
+      margin-left: -2rem;
+      padding: 4rem 2rem;
+    }
   }
 
   > .header > .video {

@@ -1,0 +1,23 @@
+@mixin mq($width) {
+  @media (max-width: #{$width}px) {
+    @content;
+  }
+}
+
+@mixin mq-laptop() {
+  @include mq(1024) {
+    @content;
+  }
+}
+
+@mixin mq-tablet() {
+  @include mq(768) {
+    @content;
+  }
+}
+
+@mixin mq-mobile() {
+  @include mq(425) {
+    @content;
+  }
+}

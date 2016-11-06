@@ -3,7 +3,19 @@
   flex-wrap: wrap;
   margin: -2rem;
 
+  @include mq-laptop {
+    margin: -1rem;
+  }
+
   > .post-card {
-    flex: 0 0 29.4%;
+    flex: 0 0 33.33%;
+
+    @include mq-tablet {
+      flex-basis: 50%;
+    }
+
+    @include mq-mobile {
+      flex-basis: 100%;
+    }
   }
 }
