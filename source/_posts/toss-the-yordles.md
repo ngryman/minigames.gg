@@ -1,7 +1,7 @@
 ---
 title: Toss the Yordles
 date: 2016-08-02 15:09:00
-players: 2
+players: 4-10
 duration: 10-20
 ---
 
@@ -52,10 +52,17 @@ The game mode consist of two groups: the *Tossers* and the *Yordles*. First team
 
 ## Allowed items
 
-|         |                                                                      |
-| ------- | -------------------------------------------------------------------- |
-| Tossers | TODO: mana & cdr |
-| Yordles | No items!  |
+### Tossers
+
+{% grid 3 %}
+{% item "Ruby Crystal" "Ancient Coin"  %}
+{% endgrid %}
+
+### Yordles
+
+{% grid fixed %}
+No items!
+{% endgrid %}
 
 ## Credits
 

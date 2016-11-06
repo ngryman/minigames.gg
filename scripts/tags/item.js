@@ -6,6 +6,8 @@ hexo.extend.tag.register('item', args => {
 
 function renderItem(name) {
   const item = items.find(item => item.name === name)
+  if (!item) return ''
+
   const style = `background: url(${item.sprite.url}) -${item.sprite.x}px -${item.sprite.y}px`
   const link = `http://leagueoflegends.wikia.com/wiki/${name.replace(' ', '_')}`
 
