@@ -1,0 +1,1 @@
+var select=require("select-dom"),activeButton;select.all(".filter-bar .link-button").forEach(function(t){t.addEventListener("click",function(t){activeButton&&activeButton.classList.remove("-active"),this!==activeButton&&(this.classList.add("-active"),activeButton=this)})});
