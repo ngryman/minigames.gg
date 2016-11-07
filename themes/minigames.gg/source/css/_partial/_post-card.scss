@@ -45,7 +45,7 @@
     transition: color 200ms;
   }
 
-  &:hover .body {
+  .link:hover .body {
     color: color-get(light);
   }
 
@@ -58,7 +58,7 @@
     transition: color 200ms;
   }
 
-  &:hover .body > .title {
+  .link:hover .body > .title {
     color: color-get(light);
   }
 
@@ -75,11 +75,7 @@
     transition: color 200ms;
   }
 
-  &:hover .footer {
+  .link:hover .footer {
     color: color-get(light);
   }
-
-  // .footer > .post-stat:nth-last-child(2) {
-  //   flex: 1;
-  // }
 }
