@@ -20,7 +20,7 @@
     "hexo-generator-tag": "^0.2.0",
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-marked": "^0.2.10",
-    "hexo-renderer-sass": "^0.2.0",
+    "hexo-renderer-sass": "^0.3.0",
     "hexo-renderer-webpack": "^0.4.0",
     "hexo-server": "^0.2.0",
     "lol-champions": "^6.21.1",
