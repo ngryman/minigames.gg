@@ -24,7 +24,7 @@
     "hexo-renderer-webpack": "^0.4.0",
     "hexo-server": "^0.2.0",
     "lol-champions": "^7.4.0",
-    "lol-items": "^0.4.0",
+    "lol-items": "^7.4.0",
     "lol-spells": "^6.21.1",
     "select-dom": "^3.0.2",
     "striptags": "^3.0.0"
