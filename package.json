@@ -25,7 +25,7 @@
     "hexo-server": "^0.2.0",
     "lol-champions": "^7.4.0",
     "lol-items": "^7.4.0",
-    "lol-spells": "^6.21.1",
+    "lol-spells": "^7.4.0",
     "select-dom": "^3.0.2",
     "striptags": "^3.0.0"
   }
