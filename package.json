@@ -23,7 +23,7 @@
     "hexo-renderer-sass": "^0.3.0",
     "hexo-renderer-webpack": "^0.4.0",
     "hexo-server": "^0.2.0",
-    "lol-champions": "^7.4.0",
+    "lol-champions": "^7.8.0",
     "lol-items": "^7.4.0",
     "lol-spells": "^7.4.0",
     "select-dom": "^3.0.2",
