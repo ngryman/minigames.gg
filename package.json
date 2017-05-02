@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "hexo": "^3.2.0",
-    "hexo-all-minifier": "0.1.0",
+    "hexo-all-minifier": "0.1.1",
     "hexo-autoprefixer": "^1.0.0",
     "hexo-deployer-git": "^0.2.0",
     "hexo-generator-archive": "^0.1.4",
@@ -23,9 +23,9 @@
     "hexo-renderer-sass": "^0.3.0",
     "hexo-renderer-webpack": "^0.4.0",
     "hexo-server": "^0.2.0",
-    "lol-champions": "^7.4.0",
+    "lol-champions": "^7.8.0",
     "lol-items": "^7.8.0",
-    "lol-spells": "^7.4.0",
+    "lol-spells": "^7.8.0",
     "select-dom": "^3.0.2",
     "striptags": "^3.0.0"
   }
