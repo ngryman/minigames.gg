@@ -1,5 +1,7 @@
 # minigames.gg
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ngryman/minigames.gg.svg)](https://greenkeeper.io/)
+
 > A registry of League of Legends mini games.
 
 
