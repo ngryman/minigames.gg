@@ -26,7 +26,7 @@
     "lol-champions": "^7.8.0",
     "lol-items": "^7.8.0",
     "lol-spells": "^7.8.0",
-    "select-dom": "^3.0.2",
+    "select-dom": "^4.1.1",
     "striptags": "^3.0.0"
   }
 }
